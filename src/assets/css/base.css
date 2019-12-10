@@ -5,7 +5,7 @@
   --color-height-text:#ff5777;
   --color-tint:#ff8198;
   --color-background:#fff;
-  --font-size:13px;
+  --font-size:14px;
   --line-height:1.5;
 }
 ::before,
@@ -24,12 +24,9 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
     margin:0;
     padding:0;
 }
-/* 要注意表单元素并不继承父级 font 的问题 */
-body,button,input,select,textarea {
-    font:12px,arial,sans-serif;
-}
-input,select,textarea {
+a,input,select,textarea {
     font-size:100%;
+    color: #000;
 }
 /* 去掉 table cell 的边距并让其边重合 */
 table {
@@ -69,11 +66,11 @@ ol,ul {
 caption,th {
     text-align:left;
 }
-/* 来自yahoo，让标题都自定义，适应多个系统应用 */
+/* 来自yahoo，让标题都自定义，适应多个系统应用
 h1,h2,h3,h4,h5,h6 {
     font-size:100%;
     font-weight:500;
-}
+} */
 q:before,q:after {
     content:'';
 }
